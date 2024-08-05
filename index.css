@@ -1,0 +1,14 @@
+/* Default styles (dark mode) */
+body {
+    background-color: #1a202c; /* bg-gray-900 */
+    color: #ffffff; /* white */
+  }
+  
+  /* Light mode styles */
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: #ffffff; /* white */
+      color: #000000; /* black */
+    }
+  }
+  
